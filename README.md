@@ -1,4 +1,5 @@
 # database-checkpoint
+```sql
 -- Create a table called destinations and populate it with each location's id,
 -- name, average_temp, has_beaches, has_mountains, and cost_of_flight.
 create table if not exists destinations (
@@ -135,3 +136,4 @@ where destinations.name != 'Scotland';
 -- All of the data for all vacation destinations.
 select *
 from destinations;
+```
